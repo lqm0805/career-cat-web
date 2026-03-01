@@ -1,0 +1,30 @@
+﻿<svg width="420" height="320" viewBox="0 0 420 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="25" y1="14" x2="382" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0EA"/>
+      <stop offset="1" stop-color="#FFD7CF"/>
+    </linearGradient>
+    <radialGradient id="fur" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 168) rotate(90) scale(114 124)">
+      <stop stop-color="#FFE5D7"/>
+      <stop offset="1" stop-color="#F2A58D"/>
+    </radialGradient>
+  </defs>
+  <rect x="10" y="10" width="400" height="300" rx="34" fill="url(#bg)"/>
+  <ellipse cx="210" cy="248" rx="108" ry="34" fill="#DBB6AA" fill-opacity="0.45"/>
+  <path d="M146 114L120 70L172 96L146 114Z" fill="#F4BDA7"/>
+  <path d="M274 114L300 70L248 96L274 114Z" fill="#F4BDA7"/>
+  <circle cx="210" cy="166" r="92" fill="url(#fur)"/>
+  <path d="M161 158C170 148 184 148 193 158" stroke="#4E2E25" stroke-width="6" stroke-linecap="round"/>
+  <path d="M227 158C236 148 250 148 259 158" stroke="#4E2E25" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="210" cy="194" rx="20" ry="14" fill="#FFD8CE"/>
+  <path d="M199 193C203 198 217 198 221 193" stroke="#5A3721" stroke-width="4" stroke-linecap="round"/>
+  <path d="M192 212C202 205 218 205 228 212" stroke="#5A3721" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 186L101 176" stroke="#CB846E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 196L95 196" stroke="#CB846E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 206L102 216" stroke="#CB846E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M269 186L319 176" stroke="#CB846E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M269 196L325 196" stroke="#CB846E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M269 206L318 216" stroke="#CB846E" stroke-width="4" stroke-linecap="round"/>
+  <rect x="126" y="235" width="168" height="36" rx="18" fill="#F0AA93"/>
+  <text x="210" y="259" text-anchor="middle" font-size="16" fill="#6A2F22" font-family="Verdana">我有点焦虑</text>
+</svg>

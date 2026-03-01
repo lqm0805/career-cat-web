@@ -1,0 +1,32 @@
+﻿<svg width="420" height="320" viewBox="0 0 420 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="360" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6E9"/>
+      <stop offset="1" stop-color="#FFE5CB"/>
+    </linearGradient>
+    <radialGradient id="fur" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 168) rotate(90) scale(114 122)">
+      <stop stop-color="#FFE7C5"/>
+      <stop offset="1" stop-color="#F3B879"/>
+    </radialGradient>
+  </defs>
+  <rect x="10" y="10" width="400" height="300" rx="34" fill="url(#bg)"/>
+  <ellipse cx="210" cy="248" rx="108" ry="34" fill="#E6D0B6" fill-opacity="0.5"/>
+  <path d="M146 114L120 70L172 96L146 114Z" fill="#F6C48C"/>
+  <path d="M274 114L300 70L248 96L274 114Z" fill="#F6C48C"/>
+  <circle cx="210" cy="166" r="92" fill="url(#fur)"/>
+  <circle cx="177" cy="160" r="18" fill="#2D2A26"/>
+  <circle cx="243" cy="160" r="18" fill="#2D2A26"/>
+  <circle cx="171" cy="154" r="4" fill="#fff"/>
+  <circle cx="237" cy="154" r="4" fill="#fff"/>
+  <ellipse cx="210" cy="195" rx="20" ry="14" fill="#FFD8BA"/>
+  <path d="M199 193C203 198 217 198 221 193" stroke="#5A3721" stroke-width="4" stroke-linecap="round"/>
+  <path d="M186 206C194 214 226 214 234 206" stroke="#5A3721" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 186L101 176" stroke="#D18C58" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 196L95 196" stroke="#D18C58" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 206L102 216" stroke="#D18C58" stroke-width="4" stroke-linecap="round"/>
+  <path d="M269 186L319 176" stroke="#D18C58" stroke-width="4" stroke-linecap="round"/>
+  <path d="M269 196L325 196" stroke="#D18C58" stroke-width="4" stroke-linecap="round"/>
+  <path d="M269 206L318 216" stroke="#D18C58" stroke-width="4" stroke-linecap="round"/>
+  <rect x="142" y="235" width="136" height="36" rx="18" fill="#F5C591"/>
+  <text x="210" y="259" text-anchor="middle" font-size="16" fill="#6A4327" font-family="Verdana">平静工作中</text>
+</svg>
