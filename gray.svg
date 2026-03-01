@@ -1,0 +1,17 @@
+﻿<svg width="420" height="320" viewBox="0 0 420 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="10" width="400" height="300" rx="32" fill="#EDF6FF"/>
+<circle cx="210" cy="172" r="94" fill="#BFD8EF"/>
+<path d="M146 114L120 70L172 96L146 114Z" fill="#A5C6E3"/>
+<path d="M274 114L300 70L248 96L274 114Z" fill="#A5C6E3"/>
+<circle cx="178" cy="162" r="18" fill="#253449"/>
+<circle cx="242" cy="162" r="18" fill="#253449"/>
+<circle cx="171" cy="156" r="4" fill="#fff"/>
+<circle cx="235" cy="156" r="4" fill="#fff"/>
+<ellipse cx="210" cy="194" rx="18" ry="12" fill="#E6F0F8"/>
+<path d="M198 206C206 211 214 211 222 206" stroke="#3B4E63" stroke-width="4" stroke-linecap="round"/>
+<path d="M150 188L100 178" stroke="#7AA3C7" stroke-width="4" stroke-linecap="round"/>
+<path d="M150 198L95 198" stroke="#7AA3C7" stroke-width="4" stroke-linecap="round"/>
+<path d="M270 188L320 178" stroke="#7AA3C7" stroke-width="4" stroke-linecap="round"/>
+<path d="M270 198L325 198" stroke="#7AA3C7" stroke-width="4" stroke-linecap="round"/>
+<text x="210" y="266" text-anchor="middle" font-family="Verdana" font-size="16" fill="#2E4A66">小灰 · 逻辑冷静</text>
+</svg>

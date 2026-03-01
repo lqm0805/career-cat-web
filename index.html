@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>职业猫</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="phone-shell">
+    <header class="app-header glass">
+      <p class="mini">Career Cat Companion</p>
+      <h1>职业猫</h1>
+      <button id="share-top" class="btn btn-ghost">分享进度</button>
+      <button id="reset-progress" class="btn btn-ghost tiny">重置进度</button>
+    </header>
+
+    <section id="screen-launch" class="screen active">
+      <article id="launch-panel" class="launch card">
+        <h2 class="game-title">职业猫</h2>
+        <p class="hint">点击下方合照开始游戏</p>
+        <img src="assets/cats/cats.png" alt="三只猫合照" class="launch-img" />
+      </article>
+    </section>
+
+    <section id="screen-career" class="screen">
+      <div class="section-head">
+        <h2>选择职业路线</h2>
+        <button data-nav="launch" class="btn btn-ghost tiny">返回</button>
+      </div>
+      <p class="hint">点一次选择职业，再点同一个职业确认。</p>
+      <div id="career-grid" class="choice-grid"></div>
+    </section>
+
+    <section id="screen-home" class="screen">
+      <div class="cat-top-stats card">
+        <span id="stat-level">Lv.1</span>
+        <span id="stat-exp">EXP 0/100</span>
+        <span id="stat-affection">AFF 60</span>
+      </div>
+
+      <article class="cat-stage card">
+        <div class="cat-wrap cat-main" id="cat-wrap">
+          <img id="cat-portrait" src="assets/cats/smile1.png" alt="猫咪形象" />
+          <div class="voice-wave"><span></span><span></span><span></span></div>
+        </div>
+        <div class="cat-bubble-box">
+          <p id="cat-reaction" class="typed-text">主人，今天也一起加油吧。</p>
+        </div>
+      </article>
+
+      <div class="actions">
+        <button id="go-task" class="btn btn-primary block">去打工</button>
+        <button id="go-growth" class="btn block">成长反馈</button>
+      </div>
+    </section>
+
+    <section id="screen-task" class="screen">
+      <div class="section-head">
+        <div>
+          <h2>任务对话</h2>
+          <p id="day-subtitle" class="hint">第1天</p>
+        </div>
+        <button data-nav="home" class="btn btn-ghost tiny">回首页</button>
+      </div>
+
+      <article class="card task-cat-stage">
+        <div class="cat-wrap cat-task" id="task-cat-wrap">
+          <img id="task-cat-portrait" src="assets/cats/smile1.png" alt="猫咪任务形象" />
+          <div class="voice-wave"><span></span><span></span><span></span></div>
+        </div>
+        <div class="cat-bubble-box large">
+          <p id="task-bubble-text" class="typed-text">主人，我遇到一点工作问题。</p>
+        </div>
+      </article>
+
+      <article class="card timeline-card" id="timeline-card">
+        <div class="timeline-head">
+          <h3>任务时间轴</h3>
+          <button id="toggle-timeline" class="btn tiny">折叠</button>
+        </div>
+        <div id="timeline-body">
+          <p id="next-countdown" class="tiny-hint"></p>
+          <ul id="day-timeline" class="day-timeline"></ul>
+          <div class="debug-row">
+            <label for="debug-day-select" class="tiny-hint">调试：选择任意天数</label>
+            <select id="debug-day-select" class="debug-select"></select>
+            <p class="tiny-hint">选择后立即跳转</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card event-card" id="event-card" hidden>
+        <p class="label">突发事件</p>
+        <h3 id="event-title">事件标题</h3>
+        <p id="event-desc" class="hint">事件描述</p>
+        <div id="event-actions" class="event-actions"></div>
+      </article>
+
+      <article class="card task-card">
+        <p id="task-title" class="task-title">任务标题</p>
+        <p id="task-prompt" class="task-prompt">任务内容</p>
+        <p id="task-meta" class="task-meta"></p>
+      </article>
+
+      <div id="task-action" class="task-action card"></div>
+
+      <div class="task-nav">
+        <span id="task-index">1 / 4</span>
+        <button id="next-task" class="btn">下一个</button>
+      </div>
+    </section>
+
+    <section id="screen-growth" class="screen">
+      <div class="section-head">
+        <h2>成长反馈</h2>
+        <button data-nav="home" class="btn btn-ghost tiny">回首页</button>
+      </div>
+      <article class="card panel"><h3>技能轨迹</h3><div id="skill-list"></div></article>
+      <article class="card panel"><h3>最近记录</h3><ul id="timeline" class="timeline"></ul></article>
+    </section>
+
+    <nav id="bottom-nav" class="bottom-nav hidden">
+      <button data-nav="home" class="tab active">首页</button>
+      <button data-nav="task" class="tab">任务</button>
+      <button data-nav="growth" class="tab">成长</button>
+    </nav>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="day-content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
